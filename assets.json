@@ -2,109 +2,209 @@
   "assets": [
     {
       "rank": 1,
-      "name": "Xiaotang68",
-      "totalSupply": "1M",
-      "precision": 10,
-      "address": "tpubDCC6...ccL4",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,079",
-      "contractId": "contract:1..."
+      "name": "USDT",
+      "totalSupply": "100B",
+      "precision": 8,
+      "address": "rgb1qyfe883hey6jrgj2xvk5g3dfmfqfzm3llqzjayc",
+      "creationDate": "January 15, 2025",
+      "blockHeight": "4,589,234",
+      "contractId": "rgb:cABeWqJ7-TYdFxYZ-P9q3hKg-vW2M8rNu-6GgH5jLp-sR7tXcM4"
     },
     {
       "rank": 2,
-      "name": "ASsxcde",
-      "totalSupply": "1M",
-      "precision": 10,
-      "address": "tpubDDWo...Ly8A",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,092",
-      "contractId": "contract:6..."
+      "name": "RGBEX",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q2v9lsuhr6g95k6c9w4xav6kdlj8u8gqj8gvtex",
+      "creationDate": "February 3, 2025",
+      "blockHeight": "4,591,456",
+      "contractId": "rgb:bNp2XhR9-KsLm4vQ-H8w7eGf-tZ3YuAd-9CqR5jNx-mE8FgP2s"
     },
     {
       "rank": 3,
-      "name": "Sky",
-      "totalSupply": "21M",
-      "precision": 1,
-      "address": "tpubDCXj...e15a",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,150",
-      "contractId": "contract:7..."
+      "name": "LNPBP",
+      "totalSupply": "10M",
+      "precision": 10,
+      "address": "rgb1qfx8e2g5u3k7m9n4p6q8r2t5w9y1z3x5c7v9b1n",
+      "creationDate": "March 12, 2025",
+      "blockHeight": "4,598,721",
+      "contractId": "rgb:xYz9AcR2-FgH5jKl-M8nP3qR-sT6uV9w-2BdE7gJ-kL4mN8pQ"
     },
     {
       "rank": 4,
-      "name": "Mo",
-      "totalSupply": "10K",
-      "precision": 1,
-      "address": "tpubDCBo...rPBJ",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,160",
-      "contractId": "contract:n..."
+      "name": "DCHF",
+      "totalSupply": "1B",
+      "precision": 6,
+      "address": "rgb1q9k3m5n8p2q4r6s8t1u3v5w7x9y2z4a6b8c1d3e",
+      "creationDate": "April 8, 2025",
+      "blockHeight": "4,603,892",
+      "contractId": "rgb:dChF7Xm9-Q2wE5rT-Y8uI3oP-6AsD9fG-hJ1kL4n-M7pQ3sV"
     },
     {
       "rank": 5,
-      "name": "Memos",
-      "totalSupply": "1M",
-      "precision": 5,
-      "address": "tpubDCrJ...q4DF",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,150",
-      "contractId": "contract:H..."
+      "name": "BTC-RGB",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q7h9j2k4l6m8n1p3q5r7s9t2u4v6w8x1y3z5a7b",
+      "creationDate": "May 20, 2025",
+      "blockHeight": "4,608,143",
+      "contractId": "rgb:bTcRgB4K-L9mN2pQ-R5sT8uV-W1xY4zA-6CdE9fG-hJ3kM5nP"
     },
     {
       "rank": 6,
-      "name": "HHJKKJ",
-      "totalSupply": "21M",
-      "precision": 1,
-      "address": "tpubDDU8...Uvvo",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,182",
-      "contractId": "contract:M..."
+      "name": "Lightning",
+      "totalSupply": "100M",
+      "precision": 12,
+      "address": "rgb1q5g8j1k3l5m7n9p2q4r6s8t1u3v5w7x9y2z4a6b",
+      "creationDate": "June 5, 2025",
+      "blockHeight": "4,611,567",
+      "contractId": "rgb:LgHtNg3M-P6qR9sT-V2wX5yZ-A8bC1dE-4FgH7jK-L9mN2pQ"
     },
     {
       "rank": 7,
-      "name": "TGUYTUYT",
-      "totalSupply": "21M",
-      "precision": 1,
-      "address": "tpubDC8c...LCoy",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,182",
-      "contractId": "contract:9..."
+      "name": "Xiaotang68",
+      "totalSupply": "1M",
+      "precision": 10,
+      "address": "rgb1q3f6h8j1k3l5m7n9p2q4r6s8t1u3v5w7x9y2z4a",
+      "creationDate": "July 14, 2025",
+      "blockHeight": "4,613,079",
+      "contractId": "rgb:XiaoT8H6-N9pQ2rS-V5wX8yZ-B1cD4eF-7GhJ9kL-M2nP5qR"
     },
     {
       "rank": 8,
-      "name": "UIERTYUW",
-      "totalSupply": "21M",
-      "precision": 1,
-      "address": "tpubDCj2...NyVv",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,182",
-      "contractId": "contract:F..."
+      "name": "TestAsset",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q8h1j3k5l7m9n2p4q6r8s1t3u5v7w9x2y4z6a8b",
+      "creationDate": "July 22, 2025",
+      "blockHeight": "4,613,092",
+      "contractId": "rgb:TestA5B8-C1dE4fG7-HjK9lM2-N5pQ8rS-V1wX4yZ-A7bC9dE"
     },
     {
       "rank": 9,
-      "name": "Momo",
-      "totalSupply": "10K",
+      "name": "Sky",
+      "totalSupply": "21M",
       "precision": 1,
-      "address": "tpubDCBo...rPBJ",
-      "creationDate": "August 6, 2025",
-      "blockHeight": "4,613,204",
-      "contractId": "contract:K..."
+      "address": "rgb1q6g9j2k4l6m8n1p3q5r7s9t2u4v6w8x1y3z5a7b",
+      "creationDate": "August 1, 2025",
+      "blockHeight": "4,613,150",
+      "contractId": "rgb:SkyT9K2L-M5nP8qR-S1uV4wX-Y7zA3bC-6DfG9hJ-K2lM5nP"
     },
     {
       "rank": 10,
+      "name": "RGB20Demo",
+      "totalSupply": "10M",
+      "precision": 8,
+      "address": "rgb1q4f7h9j2k4l6m8n1p3q5r7s9t2u4v6w8x1y3z5a",
+      "creationDate": "August 3, 2025",
+      "blockHeight": "4,613,160",
+      "contractId": "rgb:RGB20D3M-O6pQ9rS2-V5wX8yZ-B1cD4eF-7GhJ9kL-M2nP5qR"
+    },
+    {
+      "rank": 11,
+      "name": "Memos",
+      "totalSupply": "1M",
+      "precision": 5,
+      "address": "rgb1q2e5g8j1k3l5m7n9p2q4r6s8t1u3v5w7x9y2z4a",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,150",
+      "contractId": "rgb:MemosM5S-T8uV1wX-Y4zA7bC-9DfG2hJ-5KlM8nP-Q1rS4uV"
+    },
+    {
+      "rank": 12,
+      "name": "BitToken",
+      "totalSupply": "50M",
+      "precision": 6,
+      "address": "rgb1q1d4f7h9j2k4l6m8n1p3q5r7s9t2u4v6w8x1y3z",
+      "creationDate": "August 8, 2025",
+      "blockHeight": "4,613,182",
+      "contractId": "rgb:BitTkn7H-J9k2L5m8-N1pQ4rS-V7wX9yZ-A2bC5dE-F8gH1jK"
+    },
+    {
+      "rank": 13,
+      "name": "RGB-USD",
+      "totalSupply": "10B",
+      "precision": 6,
+      "address": "rgb1q9c2e5f8g1h4j6k9l2m5n8p1q4r7s9t2u5v8w1x",
+      "creationDate": "August 10, 2025",
+      "blockHeight": "4,613,195",
+      "contractId": "rgb:RGBUSD2E-F8g1H4j6-K9l2M5n8-P1q4R7s-9T2u5V8-W1xY4zA"
+    },
+    {
+      "rank": 14,
+      "name": "ChainCoin",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q8b1d4f7g9h2j5k8l1m4n7p9q2r5s8t1u4v7w9x",
+      "creationDate": "August 12, 2025",
+      "blockHeight": "4,613,204",
+      "contractId": "rgb:ChainC9H-J2k5L8m1-N4pQ7rS-T1uV4wX-Y7zA9bC-2DfG5hJ"
+    },
+    {
+      "rank": 15,
       "name": "Cuccl",
       "totalSupply": "210K",
       "precision": 7,
-      "address": "tpubDD5F...UsXX",
-      "creationDate": "August 6, 2025",
+      "address": "rgb1q7a9c2d5f8g1h4j7k9l2m5n8p1q4r7s9t2u5v8w",
+      "creationDate": "August 14, 2025",
       "blockHeight": "4,613,189",
-      "contractId": "contract:S..."
+      "contractId": "rgb:CucclC2D-F8g1H4j7-K9l2M5n-P1q4R7s-9T2u5V8-W1xY4zA"
+    },
+    {
+      "rank": 16,
+      "name": "TradeFi",
+      "totalSupply": "500M",
+      "precision": 8,
+      "address": "rgb1q6z3c5e8f1g4h7j9k2l5m8n1p4q7r9s2t5u8v1w",
+      "creationDate": "August 16, 2025",
+      "blockHeight": "4,613,218",
+      "contractId": "rgb:TradeFi8F-G4h7J9k-L5m8N1p-Q7r9S2t-5U8v1W4-X7zA9bC"
+    },
+    {
+      "rank": 17,
+      "name": "DeFiRGB",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q5y2b5d8e1f4g7h9j2k5l8m1n4p7q9r2s5t8u1v",
+      "creationDate": "August 18, 2025",
+      "blockHeight": "4,613,235",
+      "contractId": "rgb:DeFiRGB7-H9j2K5l8-M1n4P7q-R2s5T8u-1V4w7X9-Y2zA5bC"
+    },
+    {
+      "rank": 18,
+      "name": "LightCoin",
+      "totalSupply": "84M",
+      "precision": 8,
+      "address": "rgb1q4x1a4c7d9e2f5g8h1j4k7l9m2n5p8q1r4s7t9u",
+      "creationDate": "August 20, 2025",
+      "blockHeight": "4,613,251",
+      "contractId": "rgb:LightC7D-E2f5G8h1-J4k7L9m-N5p8Q1r-4S7t9U2-V5w8X1y"
+    },
+    {
+      "rank": 19,
+      "name": "BTCLayer",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q3w9z6b9c2d5e8f1g4h7j9k2l5m8n1p4q7r9s2t",
+      "creationDate": "August 22, 2025",
+      "blockHeight": "4,613,267",
+      "contractId": "rgb:BTCLay6B-C2d5E8f1-G4h7J9k-L5m8N1p-Q7r9S2t-5U8v1W4"
+    },
+    {
+      "rank": 20,
+      "name": "SmartRGB",
+      "totalSupply": "250M",
+      "precision": 12,
+      "address": "rgb1q2v8y5a8b1c4d7e9f2g5h8i1j4k7l9m2n5p8q1r",
+      "creationDate": "August 24, 2025",
+      "blockHeight": "4,613,283",
+      "contractId": "rgb:SmartR8B-C4d7E9f2-G5h8I1j-K7l9M2n-P8q1R4s-7T9u2V5"
     }
   ],
   "stats": {
-    "totalAssets": 10,
-    "totalSupply": "87.21M",
-    "latestBlock": "4,613,204",
-    "activeContracts": 10
+    "totalAssets": 20,
+    "totalSupply": "214.36B",
+    "latestBlock": "4,613,283",
+    "activeContracts": 20
   }
 }
