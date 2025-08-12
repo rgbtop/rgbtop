@@ -1,0 +1,110 @@
+{
+  "assets": [
+    {
+      "rank": 1,
+      "name": "Xiaotang68",
+      "totalSupply": "1M",
+      "precision": 10,
+      "address": "tpubDCC6...ccL4",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,079",
+      "contractId": "contract:1..."
+    },
+    {
+      "rank": 2,
+      "name": "ASsxcde",
+      "totalSupply": "1M",
+      "precision": 10,
+      "address": "tpubDDWo...Ly8A",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,092",
+      "contractId": "contract:6..."
+    },
+    {
+      "rank": 3,
+      "name": "Sky",
+      "totalSupply": "21M",
+      "precision": 1,
+      "address": "tpubDCXj...e15a",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,150",
+      "contractId": "contract:7..."
+    },
+    {
+      "rank": 4,
+      "name": "Mo",
+      "totalSupply": "10K",
+      "precision": 1,
+      "address": "tpubDCBo...rPBJ",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,160",
+      "contractId": "contract:n..."
+    },
+    {
+      "rank": 5,
+      "name": "Memos",
+      "totalSupply": "1M",
+      "precision": 5,
+      "address": "tpubDCrJ...q4DF",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,150",
+      "contractId": "contract:H..."
+    },
+    {
+      "rank": 6,
+      "name": "HHJKKJ",
+      "totalSupply": "21M",
+      "precision": 1,
+      "address": "tpubDDU8...Uvvo",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,182",
+      "contractId": "contract:M..."
+    },
+    {
+      "rank": 7,
+      "name": "TGUYTUYT",
+      "totalSupply": "21M",
+      "precision": 1,
+      "address": "tpubDC8c...LCoy",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,182",
+      "contractId": "contract:9..."
+    },
+    {
+      "rank": 8,
+      "name": "UIERTYUW",
+      "totalSupply": "21M",
+      "precision": 1,
+      "address": "tpubDCj2...NyVv",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,182",
+      "contractId": "contract:F..."
+    },
+    {
+      "rank": 9,
+      "name": "Momo",
+      "totalSupply": "10K",
+      "precision": 1,
+      "address": "tpubDCBo...rPBJ",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,204",
+      "contractId": "contract:K..."
+    },
+    {
+      "rank": 10,
+      "name": "Cuccl",
+      "totalSupply": "210K",
+      "precision": 7,
+      "address": "tpubDD5F...UsXX",
+      "creationDate": "August 6, 2025",
+      "blockHeight": "4,613,189",
+      "contractId": "contract:S..."
+    }
+  ],
+  "stats": {
+    "totalAssets": 10,
+    "totalSupply": "87.21M",
+    "latestBlock": "4,613,204",
+    "activeContracts": 10
+  }
+}
