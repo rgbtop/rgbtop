@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Assets - Market Overview</title>
+    <script type="module" src="https://unpkg.com/preact@10/dist/preact.module.js"></script>
+    <script type="module" src="https://unpkg.com/htm@3/dist/htm.module.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background: #f8fafc;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            color: #64748b;
+        }
+        
+        .stats-bar {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+        
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table th {
+            background: #f8fafc;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: #374151;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .table td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+            vertical-align: middle;
+        }
+        
+        .table tr:hover {
+            background: #f8fafc;
+        }
+        
+        .table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .rank-cell {
+            font-weight: 600;
+            color: #64748b;
+            width: 60px;
+        }
+        
+        .name-cell {
+            min-width: 180px;
+        }
+        
+        .token-name {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .contract-id {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+        
+        .supply-cell {
+            font-weight: 600;
+            color: #059669;
+        }
+        
+        .precision-badge {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .address-cell {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #4b5563;
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .date-cell {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        .block-cell {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+            color: #7c3aed;
+            font-weight: 500;
+        }
+        
+        .contract-link {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #2563eb;
+            text-decoration: none;
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+        }
+        
+        .contract-link:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #64748b;
+            margin: 3rem 0 2rem;
+            padding: 2rem;
+        }
+        
+        @media (max-width: 1200px) {
+            .table-container {
+                overflow-x: auto;
+            }
+            
+            .table {
+                min-width: 1000px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container, .header-content {
+                padding: 0 1rem;
+            }
+            
+            .stats-bar {
+                padding: 1rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .table th,
+            .table td {
+                padding: 0.75rem 0.5rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>RGB Assets</h1>
+            <p>Comprehensive overview of RGB protocol assets on testnet</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">Total Assets</div>
+                    <div class="stat-value">10</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Total Supply</div>
+                    <div class="stat-value">87.21M</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Latest Block</div>
+                    <div class="stat-value">4,613,204</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Active Contracts</div>
+                    <div class="stat-value">10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="app"></div>
+    
+    <div class="footer">
+        <p>RGB Protocol Assets - Testnet Environment</p>
+    </div>
+    
+    <script type="module">
+        import { render, h } from 'https://unpkg.com/preact@10/dist/preact.module.js';
+        import htm from 'https://unpkg.com/htm@3/dist/htm.module.js';
+        
+        const html = htm.bind(h);
+        
+        const assets = [
+            {
+                rank: 1,
+                name: 'Xiaotang68',
+                totalSupply: '1M',
+                precision: 10,
+                address: 'tpubDCC6...ccL4',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,079',
+                contractId: 'contract:1...'
+            },
+            {
+                rank: 2,
+                name: 'ASsxcde',
+                totalSupply: '1M',
+                precision: 10,
+                address: 'tpubDDWo...Ly8A',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,092',
+                contractId: 'contract:6...'
+            },
+            {
+                rank: 3,
+                name: 'Sky',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDCXj...e15a',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,150',
+                contractId: 'contract:7...'
+            },
+            {
+                rank: 4,
+                name: 'Mo',
+                totalSupply: '10K',
+                precision: 1,
+                address: 'tpubDCBo...rPBJ',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,160',
+                contractId: 'contract:n...'
+            },
+            {
+                rank: 5,
+                name: 'Memos',
+                totalSupply: '1M',
+                precision: 5,
+                address: 'tpubDCrJ...q4DF',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,150',
+                contractId: 'contract:H...'
+            },
+            {
+                rank: 6,
+                name: 'HHJKKJ',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDDU8...Uvvo',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:M...'
+            },
+            {
+                rank: 7,
+                name: 'TGUYTUYT',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDC8c...LCoy',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:9...'
+            },
+            {
+                rank: 8,
+                name: 'UIERTYUW',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDCj2...NyVv',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:F...'
+            },
+            {
+                rank: 9,
+                name: 'Momo',
+                totalSupply: '10K',
+                precision: 1,
+                address: 'tpubDCBo...rPBJ',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,204',
+                contractId: 'contract:K...'
+            },
+            {
+                rank: 10,
+                name: 'Cuccl',
+                totalSupply: '210K',
+                precision: 7,
+                address: 'tpubDD5F...UsXX',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,189',
+                contractId: 'contract:S...'
+            }
+        ];
+        
+        function AssetRow({ asset }) {
+            return html`
+                <tr>
+                    <td class="rank-cell">${asset.rank}</td>
+                    <td class="name-cell">
+                        <div class="token-name">${asset.name}</div>
+                        <div class="contract-id">${asset.contractId}</div>
+                    </td>
+                    <td class="supply-cell">${asset.totalSupply}</td>
+                    <td>
+                        <span class="precision-badge">${asset.precision}</span>
+                    </td>
+                    <td class="address-cell" title="${asset.address}">${asset.address}</td>
+                    <td class="date-cell">${asset.creationDate}</td>
+                    <td class="block-cell">${asset.blockHeight}</td>
+                    <td>
+                        <a href="#" class="contract-link" title="${asset.contractId}">${asset.contractId}</a>
+                    </td>
+                </tr>
+            `;
+        }
+        
+        function AssetTable() {
+            return html`
+                <div class="container">
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Token Name</th>
+                                    <th>Total Supply</th>
+                                    <th>Precision</th>
+                                    <th>Address</th>
+                                    <th>Creation Date</th>
+                                    <th>Block Height</th>
+                                    <th>Contract ID</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${assets.map(asset => html`<${AssetRow} key=${asset.rank} asset=${asset} />`)}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        }
+        
+        render(html`<${AssetTable} />`, document.getElementById('app'));
+    </script>
+</body>
+</html>
