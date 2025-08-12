@@ -199,12 +199,612 @@
       "creationDate": "August 24, 2025",
       "blockHeight": "4,613,283",
       "contractId": "rgb:SmartR8B-C4d7E9f2-G5h8I1j-K7l9M2n-P8q1R4s-7T9u2V5"
+    },
+    {
+      "rank": 21,
+      "name": "RGBCoin",
+      "totalSupply": "1B",
+      "precision": 8,
+      "address": "rgb1q1v7x4y7a9b2c5d8e1f4g7h9j2k5l8m1n4p7q9r",
+      "creationDate": "August 26, 2025",
+      "blockHeight": "4,613,299",
+      "contractId": "rgb:RGBCoin7A-B2c5D8e1-F4g7H9j-K5l8M1n-P7q9R2s-5T8u1V4"
+    },
+    {
+      "rank": 22,
+      "name": "BitAsset",
+      "totalSupply": "500M",
+      "precision": 6,
+      "address": "rgb1q9u6w3z6a9b2c5d8e1f4g7h9j2k5l8m1n4p7q9r",
+      "creationDate": "August 28, 2025",
+      "blockHeight": "4,613,315",
+      "contractId": "rgb:BitAst6A-B2c5D8e1-F4g7H9j-K5l8M1n-P7q9R2s-5T8u1V4"
+    },
+    {
+      "rank": 23,
+      "name": "TestNet20",
+      "totalSupply": "100M",
+      "precision": 10,
+      "address": "rgb1q8t5v2y5z8a1b4c7d9e2f5g8h1j4k7l9m2n5p8q",
+      "creationDate": "September 1, 2025",
+      "blockHeight": "4,613,331",
+      "contractId": "rgb:TestN5Z8-A1b4C7d9-E2f5G8h-J4k7L9m-N5p8Q1r-4S7t9U2"
+    },
+    {
+      "rank": 24,
+      "name": "LNToken",
+      "totalSupply": "42M",
+      "precision": 8,
+      "address": "rgb1q7s4u1x4w7z9a2b5c8d1e4f7g9h2j5k8l1m4n7p",
+      "creationDate": "September 3, 2025",
+      "blockHeight": "4,613,347",
+      "contractId": "rgb:LNTokn4W-Z9a2B5c8-D1e4F7g-H2j5K8l-M4n7P9q-2R5s8T1"
+    },
+    {
+      "rank": 25,
+      "name": "RGBStable",
+      "totalSupply": "10B",
+      "precision": 6,
+      "address": "rgb1q6r3t9v2w5y8z1a4b7c9d2e5f8g1h4j7k9l2m5n",
+      "creationDate": "September 5, 2025",
+      "blockHeight": "4,613,363",
+      "contractId": "rgb:RGBStb2W-Y8z1A4b7-C9d2E5f-G1h4J7k-L2m5N8p-1Q4r7S9"
+    },
+    {
+      "rank": 26,
+      "name": "ChainLink",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q5q2s8u1v4w7x9y2z5a8b1c4d7e9f2g5h8i1j4k",
+      "creationDate": "September 7, 2025",
+      "blockHeight": "4,613,379",
+      "contractId": "rgb:ChainL1V-W7x9Y2z5-A8b1C4d-E9f2G5h-I1j4K7l-9M2n5P8"
+    },
+    {
+      "rank": 27,
+      "name": "Bitcoin20",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q4p1r7t9u2v5w8x1y4z7a9b2c5d8e1f4g7h9j2k",
+      "creationDate": "September 9, 2025",
+      "blockHeight": "4,613,395",
+      "contractId": "rgb:Bitcoi7T-U2v5W8x1-Y4z7A9b-C5d8E1f-G7h9J2k-5L8m1N4"
+    },
+    {
+      "rank": 28,
+      "name": "RGBSwap",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q3o9p6q9r2s5t8u1v4w7x9y2z5a8b1c4d7e9f2g",
+      "creationDate": "September 11, 2025",
+      "blockHeight": "4,613,411",
+      "contractId": "rgb:RGBSwp6Q-R2s5T8u1-V4w7X9y-Z5a8B1c-D7e9F2g-5H8i1J4"
+    },
+    {
+      "rank": 29,
+      "name": "LightNet",
+      "totalSupply": "250M",
+      "precision": 12,
+      "address": "rgb1q2n8o5p8q1r4s7t9u2v5w8x1y4z7a9b2c5d8e1f",
+      "creationDate": "September 13, 2025",
+      "blockHeight": "4,613,427",
+      "contractId": "rgb:LightN8Q-R4s7T9u2-V5w8X1y-Z7a9B2c-D8e1F4g-7H9j2K5"
+    },
+    {
+      "rank": 30,
+      "name": "RGBCore",
+      "totalSupply": "50M",
+      "precision": 10,
+      "address": "rgb1q1m7n4o7p9q2r5s8t1u4v7w9x2y5z8a1b4c7d9e",
+      "creationDate": "September 15, 2025",
+      "blockHeight": "4,613,443",
+      "contractId": "rgb:RGBCor7P-Q2r5S8t1-U4v7W9x-Y5z8A1b-C7d9E2f-5G8h1J4"
+    },
+    {
+      "rank": 31,
+      "name": "TestCoin",
+      "totalSupply": "1M",
+      "precision": 8,
+      "address": "rgb1q9l6m3n6o9p2q5r8s1t4u7v9w2x5y8z1a4b7c9d",
+      "creationDate": "September 17, 2025",
+      "blockHeight": "4,613,459",
+      "contractId": "rgb:TestCo6O-P2q5R8s1-T4u7V9w-X5y8Z1a-B7c9D2e-5F8g1H4"
+    },
+    {
+      "rank": 32,
+      "name": "RGBLayer",
+      "totalSupply": "500M",
+      "precision": 8,
+      "address": "rgb1q8k5l2m5n8o1p4q7r9s2t5u8v1w4x7y9z2a5b8c",
+      "creationDate": "September 19, 2025",
+      "blockHeight": "4,613,475",
+      "contractId": "rgb:RGBLay5N-O1p4Q7r9-S2t5U8v-W4x7Y9z-A5b8C1d-4E7f9G2"
+    },
+    {
+      "rank": 33,
+      "name": "BitLight",
+      "totalSupply": "100M",
+      "precision": 6,
+      "address": "rgb1q7j4k1l4m7n9o2p5q8r1s4t7u9v2w5x8y1z4a7b",
+      "creationDate": "September 21, 2025",
+      "blockHeight": "4,613,491",
+      "contractId": "rgb:BitLig4M-N9o2P5q8-R1s4T7u-V2w5X8y-Z4a7B9c-2D5e8F1"
+    },
+    {
+      "rank": 34,
+      "name": "RGBToken",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q6i3j9k3l6m8n1o4p7q9r2s5t8u1v4w7x9y2z5a",
+      "creationDate": "September 23, 2025",
+      "blockHeight": "4,613,507",
+      "contractId": "rgb:RGBTok3L-M8n1O4p7-Q9r2S5t-U1v4W7x-Y2z5A8b-1C4d7E9"
+    },
+    {
+      "rank": 35,
+      "name": "SmartBTC",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q5h2i8j2k5l7m9n2o5p8q1r4s7t9u2v5w8x1y4z",
+      "creationDate": "September 25, 2025",
+      "blockHeight": "4,613,523",
+      "contractId": "rgb:SmartB2K-L7m9N2o5-P8q1R4s-T9u2V5w-X1y4Z7a-9B2c5D8"
+    },
+    {
+      "rank": 36,
+      "name": "RGBMint",
+      "totalSupply": "10M",
+      "precision": 10,
+      "address": "rgb1q4g1h7i1j4k6l8m1n4o7p9q2r5s8t1u4v7w9x2y",
+      "creationDate": "September 27, 2025",
+      "blockHeight": "4,613,539",
+      "contractId": "rgb:RGBMin1J-K6l8M1n4-O7p9Q2r-S8t1U4v-W9x2Y5z-8A1b4C7"
+    },
+    {
+      "rank": 37,
+      "name": "TestRGB",
+      "totalSupply": "100K",
+      "precision": 8,
+      "address": "rgb1q3f9g6h9i2j5k8l1m4n7o9p2q5r8s1t4u7v9w2x",
+      "creationDate": "September 29, 2025",
+      "blockHeight": "4,613,555",
+      "contractId": "rgb:TestRG6I-J5k8L1m4-N7o9P2q-R8s1T4u-V9w2X5y-8Z1a4B7"
+    },
+    {
+      "rank": 38,
+      "name": "RGBVault",
+      "totalSupply": "50M",
+      "precision": 6,
+      "address": "rgb1q2e8f5g8h1i4j7k9l2m5n8o1p4q7r9s2t5u8v1w",
+      "creationDate": "October 1, 2025",
+      "blockHeight": "4,613,571",
+      "contractId": "rgb:RGBVau5H-I4j7K9l2-M5n8O1p-Q7r9S2t-U8v1W4x-7Y9z2A5"
+    },
+    {
+      "rank": 39,
+      "name": "LNAsset",
+      "totalSupply": "25M",
+      "precision": 8,
+      "address": "rgb1q1d7e4f7g9h2i5j8k1l4m7n9o2p5q8r1s4t7u9v",
+      "creationDate": "October 3, 2025",
+      "blockHeight": "4,613,587",
+      "contractId": "rgb:LNAsse4G-H2i5J8k1-L4m7N9o-P5q8R1s-T7u9V2w-5X8y1Z4"
+    },
+    {
+      "rank": 40,
+      "name": "RGBTest",
+      "totalSupply": "1M",
+      "precision": 10,
+      "address": "rgb1q9c6d3e6f8g1h4i7j9k2l5m8n1o4p7q9r2s5t8u",
+      "creationDate": "October 5, 2025",
+      "blockHeight": "4,613,603",
+      "contractId": "rgb:RGBTes3E-F8g1H4i7-J9k2L5m-N1o4P7q-R2s5T8u-1V4w7X9"
+    },
+    {
+      "rank": 41,
+      "name": "BitProtocol",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q8b5c2d5e7f9g2h5i8j1k4l7m9n2o5p8q1r4s7t",
+      "creationDate": "October 7, 2025",
+      "blockHeight": "4,613,619",
+      "contractId": "rgb:BitPro2D-E7f9G2h5-I8j1K4l-M9n2O5p-Q1r4S7t-9U2v5W8"
+    },
+    {
+      "rank": 42,
+      "name": "RGBChain",
+      "totalSupply": "500M",
+      "precision": 12,
+      "address": "rgb1q7a4b1c4d6e8f1g4h7i9j2k5l8m1n4o7p9q2r5s",
+      "creationDate": "October 9, 2025",
+      "blockHeight": "4,613,635",
+      "contractId": "rgb:RGBCha1C-D6e8F1g4-H7i9J2k-L8m1N4o-P9q2R5s-8T1u4V7"
+    },
+    {
+      "rank": 43,
+      "name": "SmartContract",
+      "totalSupply": "10B",
+      "precision": 18,
+      "address": "rgb1q6z3a9b3c5d7e9f2g5h8i1j4k7l9m2n5o8p1q4r",
+      "creationDate": "October 11, 2025",
+      "blockHeight": "4,613,651",
+      "contractId": "rgb:SmartC9B-C5d7E9f2-G5h8I1j-K7l9M2n-O8p1Q4r-7S9t2U5"
+    },
+    {
+      "rank": 44,
+      "name": "LightLayer",
+      "totalSupply": "250M",
+      "precision": 8,
+      "address": "rgb1q5y2z8a2b4c6d8e1f4g7h9i2j5k8l1m4n7o9p2q",
+      "creationDate": "October 13, 2025",
+      "blockHeight": "4,613,667",
+      "contractId": "rgb:LightL8A-B4c6D8e1-F4g7H9i-J5k8L1m-N7o9P2q-5R8s1T4"
+    },
+    {
+      "rank": 45,
+      "name": "RGBNode",
+      "totalSupply": "50M",
+      "precision": 10,
+      "address": "rgb1q4x1y7z1a3b5c7d9e2f5g8h1i4j7k9l2m5n8o1p",
+      "creationDate": "October 15, 2025",
+      "blockHeight": "4,613,683",
+      "contractId": "rgb:RGBNod7Z-A3b5C7d9-E2f5G8h-I4j7K9l-M5n8O1p-4Q7r9S2"
+    },
+    {
+      "rank": 46,
+      "name": "BitLayer",
+      "totalSupply": "100M",
+      "precision": 6,
+      "address": "rgb1q3w9x6y9z2a4b6c8d1e4f7g9h2i5j8k1l4m7n9o",
+      "creationDate": "October 17, 2025",
+      "blockHeight": "4,613,699",
+      "contractId": "rgb:BitLay6Y-Z2a4B6c8-D1e4F7g-H2i5J8k-L4m7N9o-2P5q8R1"
+    },
+    {
+      "rank": 47,
+      "name": "RGBAsset",
+      "totalSupply": "25M",
+      "precision": 8,
+      "address": "rgb1q2v8w5x8y1z3a5b7c9d2e5f8g1h4i7j9k2l5m8n",
+      "creationDate": "October 19, 2025",
+      "blockHeight": "4,613,715",
+      "contractId": "rgb:RGBAss5X-Y1z3A5b7-C9d2E5f-G1h4I7j-K2l5M8n-1O4p7Q9"
+    },
+    {
+      "rank": 48,
+      "name": "TestLayer",
+      "totalSupply": "10M",
+      "precision": 12,
+      "address": "rgb1q1u7v4w7x9y2z4a6b8c1d4e7f9g2h5i8j1k4l7m",
+      "creationDate": "October 21, 2025",
+      "blockHeight": "4,613,731",
+      "contractId": "rgb:TestLa4W-X9y2Z4a6-B8c1D4e-F9g2H5i-J1k4L7m-9N2o5P8"
+    },
+    {
+      "rank": 49,
+      "name": "RGBBridge",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q9t6u3v6w8x1y3z5a7b9c2d5e8f1g4h7i9j2k5l",
+      "creationDate": "October 23, 2025",
+      "blockHeight": "4,613,747",
+      "contractId": "rgb:RGBBri3V-W8x1Y3z5-A7b9C2d-E8f1G4h-I9j2K5l-8M1n4O7"
+    },
+    {
+      "rank": 50,
+      "name": "SmartLayer",
+      "totalSupply": "200M",
+      "precision": 10,
+      "address": "rgb1q8s5t2u5v7w9x2y4z6a8b1c4d7e9f2g5h8i1j4k",
+      "creationDate": "October 25, 2025",
+      "blockHeight": "4,613,763",
+      "contractId": "rgb:SmartL2U-V7w9X2y4-Z6a8B1c-D7e9F2g-H8i1J4k-7L9m2N5"
+    },
+    {
+      "rank": 51,
+      "name": "BitNetwork",
+      "totalSupply": "500M",
+      "precision": 8,
+      "address": "rgb1q7r4s1t4u6v8w1x3y5z7a9b2c5d8e1f4g7h9i2j",
+      "creationDate": "October 27, 2025",
+      "blockHeight": "4,613,779",
+      "contractId": "rgb:BitNet1T-U6v8W1x3-Y5z7A9b-C5d8E1f-G7h9I2j-5K8l1M4"
+    },
+    {
+      "rank": 52,
+      "name": "RGBProtocol",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q6q3r9s3t5u7v9w2x4y6z8a1b4c7d9e2f5g8h1i",
+      "creationDate": "October 29, 2025",
+      "blockHeight": "4,613,795",
+      "contractId": "rgb:RGBPro9S-T5u7V9w2-X4y6Z8a-B4c7D9e-F5g8H1i-4J7k9L2"
+    },
+    {
+      "rank": 53,
+      "name": "TestNet21",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q5p2q8r2s4t6u8v1w3x5y7z9a2b5c8d1e4f7g9h",
+      "creationDate": "October 31, 2025",
+      "blockHeight": "4,613,811",
+      "contractId": "rgb:TestN8R-S4t6U8v1-W3x5Y7z-A2b5C8d-E4f7G9h-2I5j8K1"
+    },
+    {
+      "rank": 54,
+      "name": "RGBSwitch",
+      "totalSupply": "75M",
+      "precision": 10,
+      "address": "rgb1q4o1p7q1r3s5t7u9v2w4x6y8z1a4b7c9d2e5f8g",
+      "creationDate": "November 2, 2025",
+      "blockHeight": "4,613,827",
+      "contractId": "rgb:RGBSwi7Q-R3s5T7u9-V2w4X6y-Z1a4B7c-D2e5F8g-1H4i7J9"
+    },
+    {
+      "rank": 55,
+      "name": "ChainToken",
+      "totalSupply": "1B",
+      "precision": 6,
+      "address": "rgb1q3n9o6p9q2r4s6t8u1v3w5x7y9z2a5b8c1d4e7f",
+      "creationDate": "November 4, 2025",
+      "blockHeight": "4,613,843",
+      "contractId": "rgb:ChainT6P-Q2r4S6t8-U1v3W5x-Y9z2A5b-C1d4E7f-9G2h5I8"
+    },
+    {
+      "rank": 56,
+      "name": "RGBStake",
+      "totalSupply": "10M",
+      "precision": 12,
+      "address": "rgb1q2m8n5o8p1q3r5s7t9u2v4w6x8y1z3a6b9c2d5e",
+      "creationDate": "November 6, 2025",
+      "blockHeight": "4,613,859",
+      "contractId": "rgb:RGBSta5O-P1q3R5s7-T9u2V4w-X8y1Z3a-B9c2D5e-8F1g4H7"
+    },
+    {
+      "rank": 57,
+      "name": "LightBridge",
+      "totalSupply": "250M",
+      "precision": 8,
+      "address": "rgb1q1l7m4n7o9p2q4r6s8t1u3v5w7x9y2z4a7b9c2d",
+      "creationDate": "November 8, 2025",
+      "blockHeight": "4,613,875",
+      "contractId": "rgb:LightB4N-O9p2Q4r6-S8t1U3v-W7x9Y2z-A7b9C2d-5E8f1G4"
+    },
+    {
+      "rank": 58,
+      "name": "RGBFarm",
+      "totalSupply": "100M",
+      "precision": 10,
+      "address": "rgb1q9k6l3m6n8o1p3q5r7s9t2u4v6w8x1y3z5a8b1c",
+      "creationDate": "November 10, 2025",
+      "blockHeight": "4,613,891",
+      "contractId": "rgb:RGBFar3M-N8o1P3q5-R7s9T2u-V6w8X1y-Z5a8B1c-4D7e9F2"
+    },
+    {
+      "rank": 59,
+      "name": "BitSwap",
+      "totalSupply": "50M",
+      "precision": 8,
+      "address": "rgb1q8j5k2l5m7n9o2p4q6r8s1t3u5v7w9x2y4z6a8b",
+      "creationDate": "November 12, 2025",
+      "blockHeight": "4,613,907",
+      "contractId": "rgb:BitSwa2L-M7n9O2p4-Q6r8S1t-U5v7W9x-Y4z6A8b-1C4d7E9"
+    },
+    {
+      "rank": 60,
+      "name": "RGBPool",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q7i4j1k4l6m8n1o3p5q7r9s2t4u6v8w1x3y5z7a",
+      "creationDate": "November 14, 2025",
+      "blockHeight": "4,613,923",
+      "contractId": "rgb:RGBPoo1K-L6m8N1o3-P5q7R9s-T4u6V8w-X3y5Z7a-9B2c5D8"
+    },
+    {
+      "rank": 61,
+      "name": "TestAsset2",
+      "totalSupply": "500K",
+      "precision": 8,
+      "address": "rgb1q6h3i9j3k5l7m9n2o4p6q8r1s3t5u7v9w2x4y6z",
+      "creationDate": "November 16, 2025",
+      "blockHeight": "4,613,939",
+      "contractId": "rgb:TestA9J-K5l7M9n2-O4p6Q8r-S3t5U7v-W2x4Y6z-8A1b4C7"
+    },
+    {
+      "rank": 62,
+      "name": "RGBLend",
+      "totalSupply": "100M",
+      "precision": 10,
+      "address": "rgb1q5g2h8i2j4k6l8m1n3o5p7q9r2s4t6u8v1w3x5y",
+      "creationDate": "November 18, 2025",
+      "blockHeight": "4,613,955",
+      "contractId": "rgb:RGBLen8I-J4k6L8m1-N3o5P7q-R2s4T6u-V1w3X5y-7Z9a2B5"
+    },
+    {
+      "rank": 63,
+      "name": "ChainBridge",
+      "totalSupply": "250M",
+      "precision": 6,
+      "address": "rgb1q4f1g7h1i3j5k7l9m2n4o6p8q1r3s5t7u9v2w4x",
+      "creationDate": "November 20, 2025",
+      "blockHeight": "4,613,971",
+      "contractId": "rgb:ChainB7H-I3j5K7l9-M2n4O6p-Q1r3S5t-U9v2W4x-6Y8z1A4"
+    },
+    {
+      "rank": 64,
+      "name": "RGBYield",
+      "totalSupply": "50M",
+      "precision": 12,
+      "address": "rgb1q3e9f6g9h2i4j6k8l1m3n5o7p9q2r4s6t8u1v3w",
+      "creationDate": "November 22, 2025",
+      "blockHeight": "4,613,987",
+      "contractId": "rgb:RGBYie6G-H2i4J6k8-L1m3N5o-P9q2R4s-T8u1V3w-5X7y9Z2"
+    },
+    {
+      "rank": 65,
+      "name": "SmartNode",
+      "totalSupply": "25M",
+      "precision": 8,
+      "address": "rgb1q2d8e5f8g1h3i5j7k9l2m4n6o8p1q3r5s7t9u2v",
+      "creationDate": "November 24, 2025",
+      "blockHeight": "4,614,003",
+      "contractId": "rgb:SmartN5F-G1h3I5j7-K9l2M4n-O8p1Q3r-S7t9U2v-4W6x8Y1"
+    },
+    {
+      "rank": 66,
+      "name": "RGBOracle",
+      "totalSupply": "10M",
+      "precision": 10,
+      "address": "rgb1q1c7d4e7f9g2h4i6j8k1l3m5n7o9p2q4r6s8t1u",
+      "creationDate": "November 26, 2025",
+      "blockHeight": "4,614,019",
+      "contractId": "rgb:RGBOra4E-F9g2H4i6-J8k1L3m-N7o9P2q-R6s8T1u-3V5w7X9"
+    },
+    {
+      "rank": 67,
+      "name": "BitVault",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q9b6c3d6e8f1g3h5i7j9k2l4m6n8o1p3q5r7s9t",
+      "creationDate": "November 28, 2025",
+      "blockHeight": "4,614,035",
+      "contractId": "rgb:BitVau3D-E8f1G3h5-I7j9K2l-M6n8O1p-Q5r7S9t-2U4v6W8"
+    },
+    {
+      "rank": 68,
+      "name": "RGBIndex",
+      "totalSupply": "500M",
+      "precision": 6,
+      "address": "rgb1q8a5b2c5d7e9f2g4h6i8j1k3l5m7n9o2p4q6r8s",
+      "creationDate": "November 30, 2025",
+      "blockHeight": "4,614,051",
+      "contractId": "rgb:RGBInd2C-D7e9F2g4-H6i8J1k-L5m7N9o-P4q6R8s-1T3u5V7"
+    },
+    {
+      "rank": 69,
+      "name": "LightPool",
+      "totalSupply": "75M",
+      "precision": 12,
+      "address": "rgb1q7z4a1b4c6d8e1f3g5h7i9j2k4l6m8n1o3p5q7r",
+      "creationDate": "December 2, 2025",
+      "blockHeight": "4,614,067",
+      "contractId": "rgb:LightP1B-C6d8E1f3-G5h7I9j-K4l6M8n-O3p5Q7r-9S2t4U6"
+    },
+    {
+      "rank": 70,
+      "name": "RGBRouter",
+      "totalSupply": "200M",
+      "precision": 8,
+      "address": "rgb1q6y3z9a3b5c7d9e2f4g6h8i1j3k5l7m9n2o4p6q",
+      "creationDate": "December 4, 2025",
+      "blockHeight": "4,614,083",
+      "contractId": "rgb:RGBRou9A-B5c7D9e2-F4g6H8i-J3k5L7m-N2o4P6q-8R1s3T5"
+    },
+    {
+      "rank": 71,
+      "name": "TestToken",
+      "totalSupply": "10K",
+      "precision": 8,
+      "address": "rgb1q5x2y8z2a4b6c8d1e3f5g7h9i2j4k6l8m1n3o5p",
+      "creationDate": "December 6, 2025",
+      "blockHeight": "4,614,099",
+      "contractId": "rgb:TestTo8Z-A4b6C8d1-E3f5G7h-I2j4K6l-M1n3O5p-7Q9r2S4"
+    },
+    {
+      "rank": 72,
+      "name": "RGBMarket",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q4w1x7y1z3a5b7c9d2e4f6g8h1i3j5k7l9m2n4o",
+      "creationDate": "December 8, 2025",
+      "blockHeight": "4,614,115",
+      "contractId": "rgb:RGBMar7Y-Z3a5B7c9-D2e4F6g-H1i3J5k-L9m2N4o-6P8q1R3"
+    },
+    {
+      "rank": 73,
+      "name": "BitStake",
+      "totalSupply": "50M",
+      "precision": 10,
+      "address": "rgb1q3v9w6x9y2z4a6b8c1d3e5f7g9h2i4j6k8l1m3n",
+      "creationDate": "December 10, 2025",
+      "blockHeight": "4,614,131",
+      "contractId": "rgb:BitSta6X-Y2z4A6b8-C1d3E5f-G9h2I4j-K8l1M3n-5O7p9Q2"
+    },
+    {
+      "rank": 74,
+      "name": "RGBExchange",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q2u8v5w8x1y3z5a7b9c2d4e6f8g1h3i5j7k9l2m",
+      "creationDate": "December 12, 2025",
+      "blockHeight": "4,614,147",
+      "contractId": "rgb:RGBExc5W-X1y3Z5a7-B9c2D4e-F8g1H3i-J7k9L2m-4N6o8P1"
+    },
+    {
+      "rank": 75,
+      "name": "SmartPool",
+      "totalSupply": "250M",
+      "precision": 12,
+      "address": "rgb1q1t7u4v7w9x2y4z6a8b1c3d5e7f9g2h4i6j8k1l",
+      "creationDate": "December 14, 2025",
+      "blockHeight": "4,614,163",
+      "contractId": "rgb:SmartP4V-W9x2Y4z6-A8b1C3d-E7f9G2h-I6j8K1l-3M5n7O9"
+    },
+    {
+      "rank": 76,
+      "name": "RGBValidator",
+      "totalSupply": "25M",
+      "precision": 10,
+      "address": "rgb1q9s6t3u6v8w1x3y5z7a9b2c4d6e8f1g3h5i7j9k",
+      "creationDate": "December 16, 2025",
+      "blockHeight": "4,614,179",
+      "contractId": "rgb:RGBVal3U-V8w1X3y5-Z7a9B2c-D6e8F1g-H5i7J9k-2L4m6N8"
+    },
+    {
+      "rank": 77,
+      "name": "LightStake",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q8r5s2t5u7v9w2x4y6z8a1b3c5d7e9f2g4h6i8j",
+      "creationDate": "December 18, 2025",
+      "blockHeight": "4,614,195",
+      "contractId": "rgb:LightS2T-U7v9W2x4-Y6z8A1b-C5d7E9f-G4h6I8j-1K3l5M7"
+    },
+    {
+      "rank": 78,
+      "name": "RGBGovernance",
+      "totalSupply": "10M",
+      "precision": 18,
+      "address": "rgb1q7q4r1s4t6u8v1w3x5y7z9a2b4c6d8e1f3g5h7i",
+      "creationDate": "December 20, 2025",
+      "blockHeight": "4,614,211",
+      "contractId": "rgb:RGBGov1S-T6u8V1w3-X5y7Z9a-B4c6D8e-F3g5H7i-9J2k4L6"
+    },
+    {
+      "rank": 79,
+      "name": "BitDAO",
+      "totalSupply": "1B",
+      "precision": 6,
+      "address": "rgb1q6p3q9r3s5t7u9v2w4x6y8z1a3b5c7d9e2f4g6h",
+      "creationDate": "December 22, 2025",
+      "blockHeight": "4,614,227",
+      "contractId": "rgb:BitDAO9R-S5t7U9v2-W4x6Y8z-A3b5C7d-E2f4G6h-8I1j3K5"
+    },
+    {
+      "rank": 80,
+      "name": "RGBFinal",
+      "totalSupply": "21M",
+      "precision": 8,
+      "address": "rgb1q5o2p8q2r4s6t8u1v3w5x7y9z2a4b6c8d1e3f5g",
+      "creationDate": "December 24, 2025",
+      "blockHeight": "4,614,243",
+      "contractId": "rgb:RGBFin8Q-R4s6T8u1-V3w5X7y-Z2a4B6c-D1e3F5g-7H9i2J4"
     }
   ],
   "stats": {
-    "totalAssets": 20,
-    "totalSupply": "214.36B",
-    "latestBlock": "4,613,283",
-    "activeContracts": 20
+    "totalAssets": 80,
+    "totalSupply": "331.85B",
+    "latestBlock": "4,614,243",
+    "activeContracts": 80
   }
 }
