@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB Protocol Registries</title>
+    <title>RGB Assets - Market Overview</title>
     <script type="module" src="https://unpkg.com/preact@10/dist/preact.module.js"></script>
     <script type="module" src="https://unpkg.com/htm@3/dist/htm.module.js"></script>
     <style>
@@ -16,143 +16,355 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #1e293b;
+            background: #f8fafc;
             min-height: 100vh;
         }
         
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
         .header {
-            text-align: center;
-            margin-bottom: 3rem;
-            color: white;
-        }
-        
-        .header h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-        }
-        
-        .registries {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        
-        .registry-card {
             background: white;
-            border-radius: 15px;
-            padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 3px solid transparent;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
         }
         
-        .registry-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-            border-color: #667eea;
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         
-        .registry-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: #2d3748;
+        .header-left h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header-left p {
+            font-size: 1.1rem;
+            color: #64748b;
+        }
+        
+        .header-right {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .registry-links {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+        
+        .registry-link {
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #f1f5f9;
+            color: #475569;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .registry-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
         }
         
         .registry-icon {
-            width: 30px;
-            height: 30px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            width: 20px;
+            height: 20px;
+            background: #667eea;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: bold;
+            font-size: 0.75rem;
         }
         
-        .registry-description {
-            color: #4a5568;
-            margin-bottom: 1.5rem;
-            line-height: 1.7;
+        .registry-link:hover .registry-icon {
+            background: white;
+            color: #667eea;
         }
         
-        .registry-url {
+        .stats-bar {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+        
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table th {
+            background: #f8fafc;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: #374151;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .table td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+            vertical-align: middle;
+        }
+        
+        .table tr:hover {
+            background: #f8fafc;
+        }
+        
+        .table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .rank-cell {
+            font-weight: 600;
+            color: #64748b;
+            width: 60px;
+        }
+        
+        .name-cell {
+            min-width: 180px;
+        }
+        
+        .token-name {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .contract-id {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+        
+        .supply-cell {
+            font-weight: 600;
+            color: #059669;
+        }
+        
+        .precision-badge {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .address-cell {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #4b5563;
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .date-cell {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        .block-cell {
             font-family: 'Monaco', 'Menlo', monospace;
             font-size: 0.9rem;
-            color: #667eea;
-            background: #f7fafc;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            margin-bottom: 1.5rem;
-            word-break: break-all;
-            border-left: 4px solid #667eea;
+            color: #7c3aed;
+            font-weight: 500;
         }
         
-        .visit-button {
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            padding: 0.75rem 2rem;
-            border-radius: 25px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
+        .contract-link {
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #2563eb;
             text-decoration: none;
-            display: inline-block;
-            text-align: center;
-            width: 100%;
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
         }
         
-        .visit-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        .contract-link:hover {
+            text-decoration: underline;
         }
         
         .footer {
             text-align: center;
-            color: white;
-            opacity: 0.8;
-            margin-top: 2rem;
+            color: #64748b;
+            margin: 3rem 0 2rem;
+            padding: 2rem;
+        }
+        
+        @media (max-width: 1200px) {
+            .table-container {
+                overflow-x: auto;
+            }
+            
+            .table {
+                min-width: 1000px;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 1.5rem;
+                align-items: flex-start;
+            }
         }
         
         @media (max-width: 768px) {
-            .header h1 {
+            .header-left h1 {
                 font-size: 2rem;
             }
             
-            .container {
+            .container, .header-content {
+                padding: 0 1rem;
+            }
+            
+            .stats-bar {
                 padding: 1rem;
             }
             
-            .registry-card {
-                padding: 1.5rem;
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .table th,
+            .table td {
+                padding: 0.75rem 0.5rem;
+                font-size: 0.85rem;
+            }
+            
+            .registry-links {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .registry-link {
+                justify-content: center;
+                width: 100%;
             }
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <h1>RGB Assets</h1>
+                <p>Comprehensive overview of RGB protocol assets on testnet</p>
+            </div>
+            <div class="header-right">
+                <div class="registry-links">
+                    <a href="https://test.rgbex.io/" target="_blank" rel="noopener noreferrer" class="registry-link">
+                        <div class="registry-icon">R</div>
+                        RGB Exchange
+                    </a>
+                    <a href="https://beta.bitmask.app/#/registry" target="_blank" rel="noopener noreferrer" class="registry-link">
+                        <div class="registry-icon">B</div>
+                        Bitmask
+                    </a>
+                    <a href="https://bitlightlabs.com/asset/testnet" target="_blank" rel="noopener noreferrer" class="registry-link">
+                        <div class="registry-icon">L</div>
+                        Bitlight Labs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">Total Assets</div>
+                    <div class="stat-value">10</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Total Supply</div>
+                    <div class="stat-value">87.21M</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Latest Block</div>
+                    <div class="stat-value">4,613,204</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Active Contracts</div>
+                    <div class="stat-value">10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div id="app"></div>
+    
+    <div class="footer">
+        <p>RGB Protocol Assets - Testnet Environment</p>
+    </div>
     
     <script type="module">
         import { render, h } from 'https://unpkg.com/preact@10/dist/preact.module.js';
@@ -160,70 +372,158 @@
         
         const html = htm.bind(h);
         
-        const registries = [
+        const assets = [
             {
-                id: 1,
-                name: 'RGB Exchange',
-                description: 'Test registry for RGB assets and contracts. Explore the RGB ecosystem with this comprehensive testing platform.',
-                url: 'https://test.rgbex.io/',
-                icon: 'R'
+                rank: 1,
+                name: 'Xiaotang68',
+                totalSupply: '1M',
+                precision: 10,
+                address: 'tpubDCC6...ccL4',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,079',
+                contractId: 'contract:1...'
             },
             {
-                id: 2,
-                name: 'Bitmask Registry',
-                description: 'Beta registry interface for RGB protocol assets. Advanced tooling for RGB asset management and exploration.',
-                url: 'https://beta.bitmask.app/#/registry',
-                icon: 'B'
+                rank: 2,
+                name: 'ASsxcde',
+                totalSupply: '1M',
+                precision: 10,
+                address: 'tpubDDWo...Ly8A',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,092',
+                contractId: 'contract:6...'
             },
             {
-                id: 3,
-                name: 'Bitlight Labs',
-                description: 'Asset registry on testnet for RGB protocol development. Professional-grade RGB asset testing environment.',
-                url: 'https://bitlightlabs.com/asset/testnet',
-                icon: 'L'
+                rank: 3,
+                name: 'Sky',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDCXj...e15a',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,150',
+                contractId: 'contract:7...'
+            },
+            {
+                rank: 4,
+                name: 'Mo',
+                totalSupply: '10K',
+                precision: 1,
+                address: 'tpubDCBo...rPBJ',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,160',
+                contractId: 'contract:n...'
+            },
+            {
+                rank: 5,
+                name: 'Memos',
+                totalSupply: '1M',
+                precision: 5,
+                address: 'tpubDCrJ...q4DF',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,150',
+                contractId: 'contract:H...'
+            },
+            {
+                rank: 6,
+                name: 'HHJKKJ',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDDU8...Uvvo',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:M...'
+            },
+            {
+                rank: 7,
+                name: 'TGUYTUYT',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDC8c...LCoy',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:9...'
+            },
+            {
+                rank: 8,
+                name: 'UIERTYUW',
+                totalSupply: '21M',
+                precision: 1,
+                address: 'tpubDCj2...NyVv',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,182',
+                contractId: 'contract:F...'
+            },
+            {
+                rank: 9,
+                name: 'Momo',
+                totalSupply: '10K',
+                precision: 1,
+                address: 'tpubDCBo...rPBJ',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,204',
+                contractId: 'contract:K...'
+            },
+            {
+                rank: 10,
+                name: 'Cuccl',
+                totalSupply: '210K',
+                precision: 7,
+                address: 'tpubDD5F...UsXX',
+                creationDate: 'August 6, 2025',
+                blockHeight: '4,613,189',
+                contractId: 'contract:S...'
             }
         ];
         
-        function RegistryCard({ registry }) {
+        function AssetRow({ asset }) {
             return html`
-                <div class="registry-card">
-                    <div class="registry-title">
-                        <div class="registry-icon">${registry.icon}</div>
-                        ${registry.name}
-                    </div>
-                    <div class="registry-description">
-                        ${registry.description}
-                    </div>
-                    <div class="registry-url">
-                        ${registry.url}
-                    </div>
-                    <a href="${registry.url}" target="_blank" rel="noopener noreferrer" class="visit-button">
-                        Visit Registry →
-                    </a>
-                </div>
+                <tr>
+                    <td class="rank-cell">${asset.rank}</td>
+                    <td class="name-cell">
+                        <div class="token-name">${asset.name}</div>
+                        <div class="contract-id">${asset.contractId}</div>
+                    </td>
+                    <td class="supply-cell">${asset.totalSupply}</td>
+                    <td>
+                        <span class="precision-badge">${asset.precision}</span>
+                    </td>
+                    <td class="address-cell" title="${asset.address}">${asset.address}</td>
+                    <td class="date-cell">${asset.creationDate}</td>
+                    <td class="block-cell">${asset.blockHeight}</td>
+                    <td>
+                        <a href="#" class="contract-link" title="${asset.contractId}">${asset.contractId}</a>
+                    </td>
+                </tr>
             `;
         }
         
-        function App() {
+        function AssetTable() {
             return html`
                 <div class="container">
-                    <div class="header">
-                        <h1>RGB Protocol Registries</h1>
-                        <p>Explore RGB assets and contracts across different registry platforms</p>
-                    </div>
-                    
-                    <div class="registries">
-                        ${registries.map(registry => html`<${RegistryCard} key=${registry.id} registry=${registry} />`)}
-                    </div>
-                    
-                    <div class="footer">
-                        <p>RGB Protocol - Next generation smart contracts for Bitcoin</p>
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Token Name</th>
+                                    <th>Total Supply</th>
+                                    <th>Precision</th>
+                                    <th>Address</th>
+                                    <th>Creation Date</th>
+                                    <th>Block Height</th>
+                                    <th>Contract ID</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${assets.map(asset => html`<${AssetRow} key=${asset.rank} asset=${asset} />`)}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             `;
         }
         
-        render(html`<${App} />`, document.getElementById('app'));
+        render(html`<${AssetTable} />`, document.getElementById('app'));
     </script>
 </body>
 </html>
