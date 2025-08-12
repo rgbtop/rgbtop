@@ -799,12 +799,212 @@
       "creationDate": "December 24, 2025",
       "blockHeight": "4,614,243",
       "contractId": "rgb:RGBFin8Q-R4s6T8u1-V3w5X7y-Z2a4B6c-D1e3F5g-7H9i2J4"
+    },
+    {
+      "rank": 81,
+      "name": "RGBLiquid",
+      "totalSupply": "500M",
+      "precision": 8,
+      "address": "rgb1q4n1o7p1q3r5s7t9u2v4w6x8y1z3a5b7c9d2e4f",
+      "creationDate": "December 26, 2025",
+      "blockHeight": "4,614,259",
+      "contractId": "rgb:RGBLiq7P-Q3r5S7t9-U2v4W6x-Y1z3A5b-C9d2E4f-6G8h1I3"
+    },
+    {
+      "rank": 82,
+      "name": "TestCoin2",
+      "totalSupply": "50K",
+      "precision": 8,
+      "address": "rgb1q3m9n6o9p2q4r6s8t1u3v5w7x9y2z4a6b8c1d3e",
+      "creationDate": "December 28, 2025",
+      "blockHeight": "4,614,275",
+      "contractId": "rgb:TestC6O-P2q4R6s8-T1u3V5w-X9y2Z4a-B8c1D3e-5F7g9H2"
+    },
+    {
+      "rank": 83,
+      "name": "RGBInsurance",
+      "totalSupply": "100M",
+      "precision": 10,
+      "address": "rgb1q2l8m5n8o1p3q5r7s9t2u4v6w8x1y3z5a7b9c2d",
+      "creationDate": "December 30, 2025",
+      "blockHeight": "4,614,291",
+      "contractId": "rgb:RGBIns5N-O1p3Q5r7-S9t2U4v-W8x1Y3z-A7b9C2d-4E6f8G1"
+    },
+    {
+      "rank": 84,
+      "name": "BitOracle",
+      "totalSupply": "25M",
+      "precision": 12,
+      "address": "rgb1q1k7l4m7n9o2p4q6r8s1t3u5v7w9x2y4z6a8b1c",
+      "creationDate": "January 1, 2026",
+      "blockHeight": "4,614,307",
+      "contractId": "rgb:BitOra4M-N9o2P4q6-R8s1T3u-V7w9X2y-Z6a8B1c-3D5e7F9"
+    },
+    {
+      "rank": 85,
+      "name": "RGBSynthetic",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q9j6k3l6m8n1o3p5q7r9s2t4u6v8w1x3y5z7a9b",
+      "creationDate": "January 3, 2026",
+      "blockHeight": "4,614,323",
+      "contractId": "rgb:RGBSyn3L-M8n1O3p5-Q7r9S2t-U6v8W1x-Y5z7A9b-2C4d6E8"
+    },
+    {
+      "rank": 86,
+      "name": "SmartDeFi",
+      "totalSupply": "250M",
+      "precision": 8,
+      "address": "rgb1q8i5j2k5l7m9n2o4p6q8r1s3t5u7v9w2x4y6z8a",
+      "creationDate": "January 5, 2026",
+      "blockHeight": "4,614,339",
+      "contractId": "rgb:SmartD2K-L7m9N2o4-P6q8R1s-T5u7V9w-X4y6Z8a-1B3c5D7"
+    },
+    {
+      "rank": 87,
+      "name": "RGBCredit",
+      "totalSupply": "75M",
+      "precision": 6,
+      "address": "rgb1q7h4i1j4k6l8m1n3o5p7q9r2s4t6u8v1w3x5y7z",
+      "creationDate": "January 7, 2026",
+      "blockHeight": "4,614,355",
+      "contractId": "rgb:RGBCre1J-K6l8M1n3-O5p7Q9r-S4t6U8v-W3x5Y7z-9A2b4C6"
+    },
+    {
+      "rank": 88,
+      "name": "LightDeFi",
+      "totalSupply": "500M",
+      "precision": 10,
+      "address": "rgb1q6g3h9i3j5k7l9m2n4o6p8q1r3s5t7u9v2w4x6y",
+      "creationDate": "January 9, 2026",
+      "blockHeight": "4,614,371",
+      "contractId": "rgb:LightD9I-J5k7L9m2-N4o6P8q-R3s5T7u-V2w4X6y-8Z1a3B5"
+    },
+    {
+      "rank": 89,
+      "name": "RGBOptions",
+      "totalSupply": "100M",
+      "precision": 12,
+      "address": "rgb1q5f2g8h2i4j6k8l1m3n5o7p9q2r4s6t8u1v3w5x",
+      "creationDate": "January 11, 2026",
+      "blockHeight": "4,614,387",
+      "contractId": "rgb:RGBOpt8H-I4j6K8l1-M3n5O7p-Q2r4S6t-U1v3W5x-7Y9z2A4"
+    },
+    {
+      "rank": 90,
+      "name": "BitFutures",
+      "totalSupply": "200M",
+      "precision": 8,
+      "address": "rgb1q4e1f7g1h3i5j7k9l2m4n6o8p1q3r5s7t9u2v4w",
+      "creationDate": "January 13, 2026",
+      "blockHeight": "4,614,403",
+      "contractId": "rgb:BitFut7G-H3i5J7k9-L2m4N6o-P1q3R5s-T9u2V4w-6X8y1Z3"
+    },
+    {
+      "rank": 91,
+      "name": "RGBCommodity",
+      "totalSupply": "50M",
+      "precision": 10,
+      "address": "rgb1q3d9e6f9g2h4i6j8k1l3m5n7o9p2q4r6s8t1u3v",
+      "creationDate": "January 15, 2026",
+      "blockHeight": "4,614,419",
+      "contractId": "rgb:RGBCom6F-G2h4I6j8-K1l3M5n-O9p2Q4r-S8t1U3v-5W7x9Y2"
+    },
+    {
+      "rank": 92,
+      "name": "TestFinal",
+      "totalSupply": "10K",
+      "precision": 8,
+      "address": "rgb1q2c8d5e8f1g3h5i7j9k2l4m6n8o1p3q5r7s9t2u",
+      "creationDate": "January 17, 2026",
+      "blockHeight": "4,614,435",
+      "contractId": "rgb:TestFi5E-F1g3H5i7-J9k2L4m-N8o1P3q-R7s9T2u-4V6w8X1"
+    },
+    {
+      "rank": 93,
+      "name": "RGBSecurity",
+      "totalSupply": "25M",
+      "precision": 12,
+      "address": "rgb1q1b7c4d7e9f2g4h6i8j1k3l5m7n9o2p4q6r8s1t",
+      "creationDate": "January 19, 2026",
+      "blockHeight": "4,614,451",
+      "contractId": "rgb:RGBSec4D-E9f2G4h6-I8j1K3l-M7n9O2p-Q6r8S1t-3U5v7W9"
+    },
+    {
+      "rank": 94,
+      "name": "SmartAsset",
+      "totalSupply": "1B",
+      "precision": 18,
+      "address": "rgb1q9a6b3c6d8e1f3g5h7i9j2k4l6m8n1o3p5q7r9s",
+      "creationDate": "January 21, 2026",
+      "blockHeight": "4,614,467",
+      "contractId": "rgb:SmartA3C-D8e1F3g5-H7i9J2k-L6m8N1o-P5q7R9s-2T4u6V8"
+    },
+    {
+      "rank": 95,
+      "name": "RGBRewards",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q8z5a2b5c7d9e2f4g6h8i1j3k5l7m9n2o4p6q8r",
+      "creationDate": "January 23, 2026",
+      "blockHeight": "4,614,483",
+      "contractId": "rgb:RGBRew2B-C7d9E2f4-G6h8I1j-K5l7M9n-O4p6Q8r-1S3t5U7"
+    },
+    {
+      "rank": 96,
+      "name": "BitRealEstate",
+      "totalSupply": "10M",
+      "precision": 6,
+      "address": "rgb1q7y4z1a4b6c8d1e3f5g7h9i2j4k6l8m1n3o5p7q",
+      "creationDate": "January 25, 2026",
+      "blockHeight": "4,614,499",
+      "contractId": "rgb:BitRea1A-B6c8D1e3-F5g7H9i-J4k6L8m-N3o5P7q-9R2s4T6"
+    },
+    {
+      "rank": 97,
+      "name": "RGBEnergy",
+      "totalSupply": "250M",
+      "precision": 10,
+      "address": "rgb1q6x3y9z3a5b7c9d2e4f6g8h1i3j5k7l9m2n4o6p",
+      "creationDate": "January 27, 2026",
+      "blockHeight": "4,614,515",
+      "contractId": "rgb:RGBEne9Z-A5b7C9d2-E4f6G8h-I3j5K7l-M2n4O6p-8Q1r3S5"
+    },
+    {
+      "rank": 98,
+      "name": "FinalTest",
+      "totalSupply": "1K",
+      "precision": 8,
+      "address": "rgb1q5w2x8y2z4a6b8c1d3e5f7g9h2i4j6k8l1m3n5o",
+      "creationDate": "January 29, 2026",
+      "blockHeight": "4,614,531",
+      "contractId": "rgb:FinalT8Y-Z4a6B8c1-D3e5F7g-H2i4J6k-L1m3N5o-7P9q2R4"
+    },
+    {
+      "rank": 99,
+      "name": "RGBPlatinum",
+      "totalSupply": "21M",
+      "precision": 12,
+      "address": "rgb1q4v1w7x1y3z5a7b9c2d4e6f8g1h3i5j7k9l2m4n",
+      "creationDate": "January 31, 2026",
+      "blockHeight": "4,614,547",
+      "contractId": "rgb:RGBPla7X-Y3z5A7b9-C2d4E6f-G1h3I5j-K9l2M4n-6O8p1Q3"
+    },
+    {
+      "rank": 100,
+      "name": "Century",
+      "totalSupply": "100M",
+      "precision": 8,
+      "address": "rgb1q3u9v6w9x2y4z6a8b1c3d5e7f9g2h4i6j8k1l3m",
+      "creationDate": "February 2, 2026",
+      "blockHeight": "4,614,563",
+      "contractId": "rgb:Centur6W-X2y4Z6a8-B1c3D5e-F9g2H4i-J8k1L3m-5N7o9P2"
     }
   ],
   "stats": {
-    "totalAssets": 80,
-    "totalSupply": "331.85B",
-    "latestBlock": "4,614,243",
-    "activeContracts": 80
+    "totalAssets": 100,
+    "totalSupply": "364.11B",
+    "latestBlock": "4,614,563",
+    "activeContracts": 100
   }
 }
